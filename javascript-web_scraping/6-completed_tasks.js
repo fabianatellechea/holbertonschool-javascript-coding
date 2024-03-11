@@ -16,5 +16,5 @@ request(url, function (error, content, body) {
       tasks[task.userId] += 1;
     }
   });
-  console.log(tasksCompleted);
+  console.log(tasks);
 });
